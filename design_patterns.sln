@@ -9,8 +9,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural", "{FAA4916F-F5E7-4176-A867-C2197894D47B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "abstract_factory", "abstract_factory\abstract_factory.vcxproj", "{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}.Debug|x64.ActiveCfg = Debug|x64
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}.Debug|x64.Build.0 = Debug|x64
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}.Debug|x86.ActiveCfg = Debug|Win32
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}.Debug|x86.Build.0 = Debug|Win32
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}.Release|x64.ActiveCfg = Release|x64
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}.Release|x64.Build.0 = Release|x64
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}.Release|x86.ActiveCfg = Release|Win32
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2D00732-A17B-4DB0-BFE7-E0D8BEE46E48} = {FB8D9D43-C1B1-405F-917D-68725D78E7B5}
 	EndGlobalSection
 EndGlobal
