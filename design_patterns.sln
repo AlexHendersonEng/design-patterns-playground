@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "composite", "composite\comp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decorator", "decorator\decorator.vcxproj", "{52E82645-88E9-4AF9-A856-502094A9858F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "facade", "facade\facade.vcxproj", "{36A4E693-7856-4E18-B45B-93FA1C20368F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -107,6 +109,14 @@ Global
 		{52E82645-88E9-4AF9-A856-502094A9858F}.Release|x64.Build.0 = Release|x64
 		{52E82645-88E9-4AF9-A856-502094A9858F}.Release|x86.ActiveCfg = Release|Win32
 		{52E82645-88E9-4AF9-A856-502094A9858F}.Release|x86.Build.0 = Release|Win32
+		{36A4E693-7856-4E18-B45B-93FA1C20368F}.Debug|x64.ActiveCfg = Debug|x64
+		{36A4E693-7856-4E18-B45B-93FA1C20368F}.Debug|x64.Build.0 = Debug|x64
+		{36A4E693-7856-4E18-B45B-93FA1C20368F}.Debug|x86.ActiveCfg = Debug|Win32
+		{36A4E693-7856-4E18-B45B-93FA1C20368F}.Debug|x86.Build.0 = Debug|Win32
+		{36A4E693-7856-4E18-B45B-93FA1C20368F}.Release|x64.ActiveCfg = Release|x64
+		{36A4E693-7856-4E18-B45B-93FA1C20368F}.Release|x64.Build.0 = Release|x64
+		{36A4E693-7856-4E18-B45B-93FA1C20368F}.Release|x86.ActiveCfg = Release|Win32
+		{36A4E693-7856-4E18-B45B-93FA1C20368F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +131,7 @@ Global
 		{1332927E-14BC-48EB-8A47-D4D7758A0FD9} = {63CA528E-2AD4-4DF0-B632-A3A406AA78AD}
 		{3FFE9CC6-607F-4097-BC6D-3208812CEA60} = {63CA528E-2AD4-4DF0-B632-A3A406AA78AD}
 		{52E82645-88E9-4AF9-A856-502094A9858F} = {63CA528E-2AD4-4DF0-B632-A3A406AA78AD}
+		{36A4E693-7856-4E18-B45B-93FA1C20368F} = {63CA528E-2AD4-4DF0-B632-A3A406AA78AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {140B6E51-E06C-4061-9B69-1691C5637079}
