@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flyweight", "flyweight\flyw
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proxy", "proxy\proxy.vcxproj", "{1AB26F79-6581-412B-B4C9-52D37DA3E12E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chain_of_responsibility", "chain_of_responsibility\chain_of_responsibility.vcxproj", "{550FF3DA-A02B-409A-906D-6134A6353B23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -137,6 +139,14 @@ Global
 		{1AB26F79-6581-412B-B4C9-52D37DA3E12E}.Release|x64.Build.0 = Release|x64
 		{1AB26F79-6581-412B-B4C9-52D37DA3E12E}.Release|x86.ActiveCfg = Release|Win32
 		{1AB26F79-6581-412B-B4C9-52D37DA3E12E}.Release|x86.Build.0 = Release|Win32
+		{550FF3DA-A02B-409A-906D-6134A6353B23}.Debug|x64.ActiveCfg = Debug|x64
+		{550FF3DA-A02B-409A-906D-6134A6353B23}.Debug|x64.Build.0 = Debug|x64
+		{550FF3DA-A02B-409A-906D-6134A6353B23}.Debug|x86.ActiveCfg = Debug|Win32
+		{550FF3DA-A02B-409A-906D-6134A6353B23}.Debug|x86.Build.0 = Debug|Win32
+		{550FF3DA-A02B-409A-906D-6134A6353B23}.Release|x64.ActiveCfg = Release|x64
+		{550FF3DA-A02B-409A-906D-6134A6353B23}.Release|x64.Build.0 = Release|x64
+		{550FF3DA-A02B-409A-906D-6134A6353B23}.Release|x86.ActiveCfg = Release|Win32
+		{550FF3DA-A02B-409A-906D-6134A6353B23}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +164,7 @@ Global
 		{36A4E693-7856-4E18-B45B-93FA1C20368F} = {63CA528E-2AD4-4DF0-B632-A3A406AA78AD}
 		{A742A86A-2F63-4984-9566-DBF4895760CD} = {63CA528E-2AD4-4DF0-B632-A3A406AA78AD}
 		{1AB26F79-6581-412B-B4C9-52D37DA3E12E} = {63CA528E-2AD4-4DF0-B632-A3A406AA78AD}
+		{550FF3DA-A02B-409A-906D-6134A6353B23} = {FAA4916F-F5E7-4176-A867-C2197894D47B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {140B6E51-E06C-4061-9B69-1691C5637079}
