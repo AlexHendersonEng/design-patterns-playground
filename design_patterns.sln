@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mediator", "mediator\mediat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memento", "memento\memento.vcxproj", "{52D4EB5C-2CDD-43C3-855F-90D22E663FF5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "observer", "observer\observer.vcxproj", "{C7A1B139-5B73-4689-80C3-88E5B524D9B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -197,6 +199,14 @@ Global
 		{52D4EB5C-2CDD-43C3-855F-90D22E663FF5}.Release|x64.Build.0 = Release|x64
 		{52D4EB5C-2CDD-43C3-855F-90D22E663FF5}.Release|x86.ActiveCfg = Release|Win32
 		{52D4EB5C-2CDD-43C3-855F-90D22E663FF5}.Release|x86.Build.0 = Release|Win32
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2}.Debug|x64.ActiveCfg = Debug|x64
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2}.Debug|x64.Build.0 = Debug|x64
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2}.Debug|x86.Build.0 = Debug|Win32
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2}.Release|x64.ActiveCfg = Release|x64
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2}.Release|x64.Build.0 = Release|x64
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2}.Release|x86.ActiveCfg = Release|Win32
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -220,6 +230,7 @@ Global
 		{1D6702E8-6C89-4008-8E75-792F2C1AF6EC} = {FAA4916F-F5E7-4176-A867-C2197894D47B}
 		{0BAB6302-51FD-4D9C-8612-FCBFFAB67CCE} = {FAA4916F-F5E7-4176-A867-C2197894D47B}
 		{52D4EB5C-2CDD-43C3-855F-90D22E663FF5} = {FAA4916F-F5E7-4176-A867-C2197894D47B}
+		{C7A1B139-5B73-4689-80C3-88E5B524D9B2} = {FAA4916F-F5E7-4176-A867-C2197894D47B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {140B6E51-E06C-4061-9B69-1691C5637079}
